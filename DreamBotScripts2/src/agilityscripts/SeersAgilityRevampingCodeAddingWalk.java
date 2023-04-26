@@ -7,11 +7,7 @@ import org.dreambot.api.wrappers.items.GroundItem;
 
 import org.dreambot.api.methods.item.GroundItems;
 
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.util.concurrent.TimeUnit;
 
-import javax.swing.JFrame;
 import javax.swing.SwingUtilities;
 
 import org.dreambot.api.methods.combat.Combat;
@@ -63,7 +59,7 @@ public class SeersAgilityRevampingCodeAddingWalk extends AbstractScript {
 
 	@Override
 	public int onLoop() {
-		log("taking breaks?: " + takeBreaks);
+		
 		if (startLoop) {
 			// *************This code will execute every time before getting a
 			// state***********
