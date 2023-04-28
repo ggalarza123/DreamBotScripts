@@ -108,5 +108,4 @@ public class RuthlessAgilityMain extends AbstractScript {
 		g.drawString("Levels increased: " + SkillTracker.getGainedLevels(Skill.AGILITY), 5, 45);
 		g.drawString("Currently: " + state, 5, 60);
 	}
-
 }
